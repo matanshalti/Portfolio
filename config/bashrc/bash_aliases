@@ -2,9 +2,11 @@
 alias EDIT_BASHRC='nano /.bashrc'
 alias edit_alias='nano /.bash_aliases'
 
-# built-in commands
+## built-in commands
 alias ll='ls -alF --color=auto'
 alias rm='rm -I'
+# rerun last command with sudo
+alias please='sudo !!' 
 
 ## gcc and debugging
 alias gc='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -o3'
@@ -22,7 +24,7 @@ alias sudo_nano='sudo nano -m -q -l --minibar'
 alias update='sudo dnf upgrade --refresh -y'
 alias sdi='sudo dnf install'
 
-#ssh connection
+# ssh connection
 alias thinkpad='ssh matan@192.168.1.110'
 
 # other
