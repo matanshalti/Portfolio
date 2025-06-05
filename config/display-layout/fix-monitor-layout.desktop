@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Fix Monitor Layout
+Comment=Restores custom monitor alignment
+Exec=/home/matanshalti/.local/bin/set-monitor-layout.sh 
+Icon=preferences-desktop-display
+Terminal=false
+Categories=Utility;System;
+X-GNOME-Autostart-enabled=false

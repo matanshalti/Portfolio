@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/matanshalti/.local/bin/set-monitor-layout.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Set Monitor Layout
+Comment=Fix monitor layout on login
