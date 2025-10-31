@@ -4,9 +4,7 @@ alias edit_alias='nano /.bash_aliases'
 
 ## built-in commands
 alias ll='ls -alF --color=auto'
-alias rm='rm -I'
-# rerun last command with sudo
-alias please='sudo !!' 
+alias rm='rm -I' 
 
 ## gcc and debugging
 alias gc='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -o3'
@@ -26,6 +24,7 @@ alias sdi='sudo dnf install'
 
 # ssh connection
 alias thinkpad='ssh matan@192.168.1.110'
+alias mount_thinkpad='mkdir -p ~/thinkpad_mount && sshfs matan@192.168.1.110:/home/matan ~/thinkpad_mount'
 
 # other
 alias rsync='rsync -avh --progress'
