@@ -1,0 +1,8 @@
+[Unit]
+Description=Rclone Google Drive Backup Service
+
+[Service]
+User=matan
+Group=matan
+Type=oneshot
+ExecStart=/usr/bin/rclone sync -v --checkers 16 --transfers 8 --tpslimit 8 /srv/samba/backups gdrive:Backups

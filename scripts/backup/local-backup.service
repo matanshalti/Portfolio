@@ -1,0 +1,6 @@
+[Unit]
+Description=Rsync backup of home directory to ThinkPad Server
+
+[Service]
+Type=oneshot
+ExecStart=/home/matanshalti/run_backup.sh
