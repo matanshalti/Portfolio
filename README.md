@@ -14,10 +14,14 @@ Former sales strategist turned sysadmin — bridging communication and configura
 
 ## 🧪 Projects & Focus
 
-- Bash scripting
-- System configuration
-- Automation tools
-- Real-world utilities that show what I can do, not just what I know
+### 🛡️ Automated Home Lab Backup Infrastructure
+A "set and forget" backup strategy built from scratch using native Linux tools to ensure data integrity across local and cloud environments.
+
+* **[Bash Automation Logic](./scripts/backup/)** *Core Scripting:* A custom Bash script utilizing `rsync` for incremental, efficient backups with error logging and drive safety checks.
+
+* **[Local Scheduling (Systemd)](./config/backup/local_systemd/)** *Infrastructure as Code:* Replaced standard Cron jobs with `systemd` service units and timers for better process management and journal logging.
+
+* **[Cloud Sync Configuration](./config/backup/cloud_systemd/)** *Offsite Disaster Recovery:* Configuration for automated encryption and upload to Google Drive via `rclone`, triggered by systemd timers.
 
 ---
 
