@@ -23,6 +23,12 @@ A "set and forget" backup strategy built from scratch using native Linux tools t
 
 * **[Cloud Sync Configuration](./config/backup/cloud_systemd/)** *Offsite Disaster Recovery:* Configuration for automated encryption and upload to Google Drive via `rclone`, triggered by systemd timers.
 
+### 💻 Systems Programming
+
+* **[C - CLI File Editor](./C_Projects/cli_file_editor)**
+    * **Focus:** Low-level logic & memory management.
+    * **Description:** A command-line file editor built in C. This project helped me understand file descriptors, buffers, and how Linux handles text input/output at a system level.
+
 ---
 
 ## 📫 Contact
