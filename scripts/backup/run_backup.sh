@@ -53,6 +53,7 @@ rsync -aP --delete \
   --link-dest="$LATEST_LINK" \
   --exclude ".cache" \
   --exclude ".dbus" \
+  --exclude ".local/share/Trash" \
   --exclude "Downloads" \
   --exclude "Network-Drives" \
   "/home/matanshalti/" "$TODAYS_DIR/"
